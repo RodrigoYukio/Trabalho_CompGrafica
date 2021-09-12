@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+@font-face {
+font-family: 'njnaruto';
+src: url('../fonts/njnaruto.ttf') format('truetype');
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/konohaPapelFundo.png') 
+}
+.container {
+    width: 800px;
+    height: 500px;
+}
+#canvas1 {
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+    border: 10px solid rgb(212, 145, 0);
+    background-image: url('../img/papel.png');
+}
+
+
